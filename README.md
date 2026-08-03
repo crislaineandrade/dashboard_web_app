@@ -1,7 +1,7 @@
 # dashboard_web_app
 
--Version in English
 
+*Version in English
 # Vehicle Sales Dashboard
 
 ## Overview
@@ -24,13 +24,14 @@ Plotly Express
 
 ## Project Structure
 
+```text
 dashboard_web_app/
-│
 ├── app.py               # Main Streamlit application
 ├── vehicles.csv         # Dataset
 ├── requirements.txt     # Project dependencies
-├── README.md            # Project documentation
-└── notebooks/           # Jupyter notebooks used during development
+├── README.md            # Documentation
+└── notebooks/           # Notebooks used during development
+```
 
 ## Installation
 
@@ -54,11 +55,17 @@ The application will open automatically in your default web browser.
 
 This project demonstrates how to build an interactive web dashboard for data visualization using Python. It combines data processing with Pandas, interactive charts with Plotly Express, and a simple web interface using Streamlit.
 
--Version in Portuguese
+## Web Application
 
+Access the project online by clicking the link below:
+
+**🔗 [Dashboard Web App](https://dashboard-web-app-b528.onrender.com)**
+
+
+*Version in Portuguese
 # Dashboard de Vendas de Veículos
 
-Visão Geral
+## Visão Geral
 
 O Dashboard de Vendas de Veículos é uma aplicação web desenvolvida com Streamlit que permite explorar e visualizar um conjunto de dados de anúncios de venda de veículos. A aplicação oferece gráficos interativos para facilitar a análise e compreensão dos dados.
 
@@ -76,17 +83,16 @@ Pandas
 Streamlit
 Plotly Express
 
-
 ## Estrutura do Projeto
 
+```text
 dashboard_web_app/
-│
 ├── app.py               # Aplicação principal em Streamlit
 ├── vehicles.csv         # Conjunto de dados
 ├── requirements.txt     # Dependências do projeto
-├── README.md            # Documentação
+├── README.md            # Documentação do projeto
 └── notebooks/           # Notebooks utilizados durante o desenvolvimento
-
+```
 
 ## Instalação
 
@@ -109,3 +115,9 @@ A aplicação será aberta automaticamente no navegador padrão.
 ## Objetivo
 
 Este projeto demonstra como desenvolver um dashboard web interativo para visualização de dados utilizando Python. Ele integra processamento de dados com Pandas, gráficos interativos com Plotly Express e uma interface web simples criada com Streamlit.
+
+## Aplicação Web
+
+Acesse o projeto online clicando no link abaixo:
+
+**🔗 [Dashboard Web App](https://dashboard-web-app-b528.onrender.com)**
