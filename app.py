@@ -11,7 +11,7 @@ hist_checkbox = st.checkbox('Criar Histograma') #criar botao do grafico de hist
 if hist_checkbox:
     st.write('Criando um histograma para o conjunto de dados de anúncios de vendas de carros')
     #criar o grafico 
-    fig = px.histogram(df_vehicles, x='odometer')
+    fig = px.histogram(df_vehicles, x='odometer', y='price')
     #mostrar o grafico
     st.plotly_chart(fig, use_container_width=True)
 
@@ -21,11 +21,11 @@ scatter_checkbox = st.checkbox('Criar Gráfico de Dispersão') #criar botao do g
 if scatter_checkbox:
     st.write('Criando um gráfico de dispersão para o conjunto de dados de anúncios de vendas de carros')
 
-    fig = px.scatter(df_vehicles, x='odometer')
+    fig = px.scatter(df_vehicles, x='odometer', y='price')
 
     st.plotly_chart(fig, use_container_width=True)
 
-
+print(df_vehicles.info())
 
 
 # LÓGICA PARA USAR BOTÃO AO INVÉA E CHECKBOX
@@ -37,7 +37,7 @@ if scatter_checkbox:
 #     st.write('Criando um histograma para o conjunto de dados de anúncios de vendas de carros')
 
 #     #criar o histrograma
-#     fig = px.histogram(df_vehicles, x='odometer')
+#     fig = px.histogram(df_vehicles, x='odometer', y='price)
 
 #     #exibir o gráfico no plotly
 #     st.plotly_chart(fig, use_container_width=True)
@@ -45,7 +45,7 @@ if scatter_checkbox:
 # if scatter_button:
 #     st.write('Criando um gráfico de dispersão para o conjunto de dados de anúncios de vendas de carros')
 
-#     fig = px.scatter(df_vehicles, x='odometer')
+#     fig = px.scatter(df_vehicles, x='odometer', y='price)
 
 #     st.plotly_chart(fig, use_container_width=True)
 
